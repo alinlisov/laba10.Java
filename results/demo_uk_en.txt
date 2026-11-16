@@ -1,0 +1,77 @@
+
+=== ЛАБОРАТОРНА №10: РЕФЛЕКСІЯ, ЛОГУВАННЯ, ІНТЕРНАЦІОНАЛІЗАЦІЯ ===
+1 — Змінити String через рефлексію (завдання 10.1)
+2 — Банківські перекази та логування (завдання 10.2)
+3 — Вибір мови (завдання 10.3)
+4 — Показати файл журналу
+0 — Вийти
+Ваш вибір: 
+=== 10.1. РЕФЛЕКСІЯ: ВНУТРІШНЄ ПОЛЕ STRING ===
+Увага: змінювати незмінюваний String таким способом можна лише як навчальний експеримент!
+Тип внутрішнього поля String.value: byte[]
+Літерал ДО: Lab10ABC
+Літерал ПІСЛЯ: Changed!
+Введіть свій рядок (наприклад, Привіт):
+Введіть заміну тієї самої довжини й типу кодування (наприклад, Вітаю!):
+З клавіатури ДО: Привіт
+З клавіатури ПІСЛЯ: Вітаю!
+
+=== ЛАБОРАТОРНА №10: РЕФЛЕКСІЯ, ЛОГУВАННЯ, ІНТЕРНАЦІОНАЛІЗАЦІЯ ===
+1 — Змінити String через рефлексію (завдання 10.1)
+2 — Банківські перекази та логування (завдання 10.2)
+3 — Вибір мови (завдання 10.3)
+4 — Показати файл журналу
+0 — Вийти
+Ваш вибір: 
+=== 10.2. БАНКІВСЬКІ ПЕРЕКАЗИ ТА ЛОГУВАННЯ ===
+Загальна сума ДО: 1700
+2026-11-15 19:04:00 | INFO | Успішний переказ 250: рахунок 1 → рахунок 2
+2026-11-15 19:04:00 | INFO | Успішний переказ 100: рахунок 2 → рахунок 3
+2026-11-15 19:04:00 | WARNING | Відхилено: недостатньо коштів на рахунку 3 для суми 900
+Переказ на 900 із рахунку №3 прийнято: false
+2026-11-15 19:04:00 | SEVERE | Помилка: некоректні параметри переказу
+Навмисний переказ від'ємної суми відхилено.
+Підсумкові баланси: A1=750, A2=650, A3=300
+Загальна сума ПІСЛЯ: 1700
+ПЕРЕВІРКА: загальна сума коштів збережена.
+FINE записується у файл, але не відображається в консолі; INFO/WARNING/SEVERE видно в обох місцях.
+Файл журналу: /mnt/data/Lab10_Java_Reflection_Logging_I18n/logs/lab10.log
+
+=== ЛАБОРАТОРНА №10: РЕФЛЕКСІЯ, ЛОГУВАННЯ, ІНТЕРНАЦІОНАЛІЗАЦІЯ ===
+1 — Змінити String через рефлексію (завдання 10.1)
+2 — Банківські перекази та логування (завдання 10.2)
+3 — Вибір мови (завдання 10.3)
+4 — Показати файл журналу
+0 — Вийти
+Ваш вибір: Оберіть мову інтерфейсу:
+1 - Українська | 2 - English | 3 - Polski
+Ваш вибір: Interface language has been selected.
+
+=== LAB 10: REFLECTION, LOGGING, INTERNATIONALIZATION ===
+1 — Modify String via reflection (task 10.1)
+2 — Bank transfers and logging (task 10.2)
+3 — Choose language (task 10.3)
+4 — Show log file
+0 — Exit
+Your choice: 
+=== 10.2. BANK TRANSFERS AND LOGGING ===
+Total BEFORE: 1700
+2026-11-15 19:04:00 | INFO | Successful transfer 250: account 1 → account 2
+2026-11-15 19:04:00 | INFO | Successful transfer 100: account 2 → account 3
+2026-11-15 19:04:00 | WARNING | Rejected: insufficient funds in account 3 for amount 900
+Transfer of 900 from account 3 accepted: false
+2026-11-15 19:04:00 | SEVERE | Error: invalid transfer parameters
+Intentional negative transfer rejected.
+Final balances: A1=750, A2=650, A3=300
+Total AFTER: 1700
+CHECK: total money remained unchanged.
+FINE goes to the file, but not to the console; INFO/WARNING/SEVERE reach both destinations.
+Log file: /mnt/data/Lab10_Java_Reflection_Logging_I18n/logs/lab10.log
+
+=== LAB 10: REFLECTION, LOGGING, INTERNATIONALIZATION ===
+1 — Modify String via reflection (task 10.1)
+2 — Bank transfers and logging (task 10.2)
+3 — Choose language (task 10.3)
+4 — Show log file
+0 — Exit
+Your choice: Program finished.

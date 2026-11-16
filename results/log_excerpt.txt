@@ -1,0 +1,14 @@
+2026-11-15 18:57:15 | FINE | Запит: переказ 250 з рахунку 1 на рахунок 2
+2026-11-15 18:57:15 | INFO | Успішний переказ 250: рахунок 1 → рахунок 2
+2026-11-15 18:57:15 | FINE | Запит: переказ 100 з рахунку 2 на рахунок 3
+2026-11-15 18:57:15 | INFO | Успішний переказ 100: рахунок 2 → рахунок 3
+2026-11-15 18:57:15 | FINE | Запит: переказ 900 з рахунку 3 на рахунок 1
+2026-11-15 18:57:15 | WARNING | Відхилено: недостатньо коштів на рахунку 3 для суми 900
+2026-11-15 18:57:15 | SEVERE | Помилка: некоректні параметри переказу
+2026-11-15 18:57:15 | FINE | Request: transfer 250 from account 1 to account 2
+2026-11-15 18:57:15 | INFO | Successful transfer 250: account 1 → account 2
+2026-11-15 18:57:15 | FINE | Request: transfer 100 from account 2 to account 3
+2026-11-15 18:57:15 | INFO | Successful transfer 100: account 2 → account 3
+2026-11-15 18:57:15 | FINE | Request: transfer 900 from account 3 to account 1
+2026-11-15 18:57:15 | WARNING | Rejected: insufficient funds in account 3 for amount 900
+2026-11-15 18:57:15 | SEVERE | Error: invalid transfer parameters

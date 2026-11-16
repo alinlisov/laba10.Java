@@ -1,0 +1,31 @@
+PASS: 10.1 reflection ASCII replacement
+PASS: 10.1 same String identity
+PASS: 10.1 UTF-16 Cyrillic replacement
+PASS: 10.1 mismatched length rejected safely
+PASS: 10.1 detects JDK-specific String backing type
+PASS: 10.2 initial sum
+2026-11-15 19:03:59 | INFO | Успішний переказ 75: рахунок 1 → рахунок 2
+PASS: 10.2 successful transfer
+PASS: 10.2 updated balances
+2026-11-15 19:03:59 | WARNING | Відхилено: недостатньо коштів на рахунку 1 для суми 999
+PASS: 10.2 insufficient funds rejected
+PASS: 10.2 money conservation
+2026-11-15 19:03:59 | SEVERE | Помилка: некоректні параметри переказу
+PASS: 10.2 invalid transfer triggers error
+PASS: 10.2 duplicate account ID rejected
+PASS: 10.2 concurrent bank preserves total
+PASS: 10.2 no negative balances
+PASS: 10.2 logger threshold FINE
+PASS: 10.2 console filters out FINE
+PASS: 10.2 file receives FINE and higher levels
+2026-11-15 19:03:59 | INFO | SPECIAL_INFO_1002
+PASS: 10.2 FINE written to .log
+PASS: 10.2 INFO written to .log
+PASS: 10.2 errors recorded in file
+PASS: 10.3 Ukrainian bundle
+PASS: 10.3 English bundle
+PASS: 10.3 Polish bundle
+PASS: 10.3 MessageFormat substitution
+PASS: 10.3 changing locale changes UI text
+
+УСПІШНО: 25 із 25 перевірок.
